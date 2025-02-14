@@ -30,6 +30,7 @@ const ProgressionDash = () => {
               <h3 dangerouslySetInnerHTML={{ __html: step.subtitle }}></h3>
               <p>{step.description.processed}</p>
               <p>State: {step.state}</p>
+              <button>Continuez</button>
             </div>
           ))}
         </div>
